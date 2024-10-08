@@ -43,14 +43,13 @@ public abstract class Generica {
 	}
 	
 	
-	//Metódos 
+	//MetÃ³dos 
 	
 	String criarConta(String nome, String cpf, String numeroConta, double quantia) {
 		this.nome = nome;
 		this.cpf = cpf;
-		this.numeroConta = numeroConta;
 		this.quantia = quantia;
-		return "Conta criada com sucesso!!! Seu saldo é de R$" + getSaldo();
+		return "Conta criada com sucesso!!! Seu saldo Ã© de R$" + getSaldo();
 	}
 	
 	
@@ -61,11 +60,11 @@ public abstract class Generica {
 	
 	String sacar (double getQuantia) {
 		this.saldo = getSaldo() - getQuantia;
-		return "Seu novo saldo é de R$" + getSaldo();	
+		return "Seu novo saldo Ã© de R$" + getSaldo();	
 	}
 	
 	String imprimirSaldo () {
-		return "Seu saldo é de R$" + getSaldo();	
+		return "Seu saldo Ã© de R$" + getSaldo();	
 	}
 
 	
