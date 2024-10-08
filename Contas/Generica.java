@@ -45,7 +45,7 @@ public abstract class Generica {
 	
 	//Metódos 
 	
-	String criarConta(String nome, String cpf, String numeroConta, double quantia) {
+	String criarConta(String nome, String cpf, double quantia) {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.quantia = quantia;
